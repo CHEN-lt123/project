@@ -1,0 +1,88 @@
+{% extends 'base.html' %}
+{% block title %}<title>最新消息</title>{% endblock %}
+{% load static %}
+{% block content %}
+<section id="newsCarousel" class="carousel slide container mt-5" data-bs-ride="carousel">
+  <h2 class="text-center mb-4">最新消息</h2>
+  <div class="carousel-inner">
+      <!-- 第一張卡片 -->
+      <div class="carousel-item active">
+          <div class="row">
+              <div class="col-md-4">
+                  <div class="card">
+                      <img src="{% static 'images/new5.jpg' %}" class="card-img-top" alt="增強免疫">
+                      <div class="card-body">
+                          <h5 class="card-title">免疫力下降4症狀</h5>
+                          <p class="card-text">免疫力是人體對抗外來病菌重要的機制，但免疫力太強太弱都不好...</p>
+                          <p class="card-date">Date: 2024-10-13</p>
+                          <a href="#" class="btn btn-primary">了解更多</a>
+                      </div>
+                  </div>
+              </div>
+              <!-- 第二張卡片 -->
+              <div class="col-md-4">
+                  <div class="card">
+                      <img src="{% static 'images/new2.jpg' %}" class="card-img-top" alt="器官移植技術">
+                      <div class="card-body">
+                          <h5 class="card-title">器官移植技術</h5>
+                          <p class="card-text">讓醫學界了解移植免疫學，也拯救了萬千末期病人的生命...</p>
+                          <p class="card-date">Date: 2024-10-03</p>
+                          <a href="#" class="btn btn-primary">了解更多</a>
+                      </div>
+                  </div>
+              </div>
+              <!-- 第三張卡片 -->
+              <div class="col-md-4">
+                  <div class="card">
+                      <img src="{% static 'images/new4.jpg' %}" class="card-img-top" alt="癌症風險">
+                      <div class="card-body">
+                          <h5 class="card-title">患癌風險增高</h5>
+                          <p class="card-text">年輕人患癌風險增高 罪魁禍首竟與「它」有關，酒精與癌症風險...</p>
+                          <p class="card-date">Date: 2024-10-02</p>
+                          <a href="#" class="btn btn-primary">了解更多</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- 第二組卡片的輪播 -->
+              <div class="col-md-4">
+                  <div class="card">
+                      <img src="{% static 'images/new1.jpg' %}" class="card-img-top" alt="顧好健康">
+                      <div class="card-body">
+                          <h5 class="card-title">顧好健康根本</h5>
+                          <p class="card-text">人體器官是維持健康的根本，營養師曝8大器官養護祕笈 最怕天敵一次揭露...</p>
+                          <p class="card-date">Date: 2024-10-22</p>
+                          <a href="#" class="btn btn-primary">了解更多</a>
+                      </div>
+                  </div>
+              </div>
+              <!-- 第三張卡片 -->
+              <div class="col-md-4">
+                  <div class="card">
+                      <img src="{% static 'images/new3.jpg' %}" class="card-img-top" alt="癌症風險">
+                      <div class="card-body">
+                          <h5 class="card-title">患癌風險增高</h5>
+                          <p class="card-text">年輕人患癌風險增高 罪魁禍首竟與「它」有關，酒精與癌症風險...</p>
+                          <p class="card-date">Date: 2024-10-02</p>
+                          <a href="#" class="btn btn-primary">了解更多</a>
+                      </div>
+                  </div>
+              </div>
+              <!-- 第三張卡片 -->
+              <div class="col-md-4">
+                  <div class="card">
+                      <img src="{% static 'images/new6.jpg' %}" class="card-img-top" alt="癌症風險">
+                      <div class="card-body">
+                          <h5 class="card-title">患癌風險增高</h5>
+                          <p class="card-text">年輕人患癌風險增高 罪魁禍首竟與「它」有關，酒精與癌症風險...</p>
+                          <p class="card-date">Date: 2024-10-02</p>
+                          <a href="#" class="btn btn-primary">了解更多</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+  
+</section>
+{% endblock %}
